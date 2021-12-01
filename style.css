@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: grey;
+}
+
+form{
+    width: 500px;
+    padding: 20px;
+    margin-top: 20px;
+    background: rgb(240, 240, 240);
+}
+
+#addName{
+    width: 500px;
+}
+
+#addDate{
+    width: 500px;
+}
+
+#button{
+    padding: 10px;
+    cursor: pointer;
+}
+
+textarea{
+    width: 500px;
+    height: 200px;
+}
+
+div{
+    width: 500px;  
+    padding: 20px;
+    margin-bottom: 20px;
+    word-wrap: break-word;
+    background: rgb(240, 240, 240);
+}
